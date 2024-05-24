@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 pip install gradio
-
-
-# In[1]:
-
 
 import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
@@ -69,8 +59,6 @@ interface = gr.Interface(
 
 interface.launch()
 
-
-# In[ ]:
 
 
 
